@@ -1,0 +1,162 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  
+  .jumbotron {
+
+    background-color: #ff214d;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .jumbotron {
+      padding-top: 135px;
+      padding-bottom: 48px;
+    }
+  }
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    min-height: 100px;
+    border-bottom: #ff214d 5px solid;
+  }
+  .navbar-nav li a {
+    line-height: 60px;
+   }
+  .navbar li a, .navbar .navbar-brand {
+    color: #bd24f0 !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ff214d !important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+
+.main-logo {
+    max-width: 192px;
+    /* margin: 31px; */
+}
+
+
+.carousel-caption {
+    left: 0;
+    top: 30%;
+    text-align: left;
+    color: #bd24f0 !important;
+    max-width: 300px;
+    margin-left: 300px;
+}
+.carousel-caption-alt {
+    left: 0;
+    top: 30%;
+    text-align: left;
+    color: #fff !important;
+    max-width: 300px;
+    margin-left: 300px;
+}
+.brand-name-caption {
+    font-weight: 700;
+    font-size: 70px;
+}
+.brand-name-p {
+    font-size: 20px;
+}
+
+.about_h1{
+    max-width: 600px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.about_button{
+  color: #fff;
+  background-color: #ff214d;
+  border-color: #be0429;
+}
+
+.about_button:hover {
+  color: #ff214d;
+  background-color: #fff;
+  border-color: #bd24f0;
+}
+
+.padding-50 {
+  padding-top: 50px;
+}
+.bg-4 {
+  background-color: #bd24f0;
+  color: #ffffff;
+  margin-top: 50px;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 0px;
+  height:20px;
+  color: #ff214d;
+}
+.npc_link{
+  color: #fff;
+  font-size: 15px;
+}
+
+/** Gallery **/
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
