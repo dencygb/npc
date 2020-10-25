@@ -97,7 +97,7 @@
               </div>
           <div class="col-sm-6">
             <h1 class="about_h1">Delivering leading pet health, with love, when you need us!</h2>
-            <h4>NPC provide primary and specialist care for companion animals and their families. We are proud of our ability to diagnose and treat conditions in pets without over vaccinating, over diagnosing or over treating. Pets need people to make health decisions for them. We help you make these decisions so that your companions live satisfying and comfortable lives.</h4>
+            <h4 class="about_h4">NPC provide primary and specialist care for companion animals and their families. We are proud of our ability to diagnose and treat conditions in pets without over vaccinating, over diagnosing or over treating. Pets need people to make health decisions for them. We help you make these decisions so that your companions live satisfying and comfortable lives.</h4>
            
             <button class="btn btn-default btn-lg about_button">Get in Touch</button>
           </div>

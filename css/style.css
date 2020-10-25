@@ -43,6 +43,7 @@ body {
       padding-top: 135px;
       padding-bottom: 48px;
     }
+    
   }
 
   .navbar {
@@ -198,5 +199,5 @@ footer .glyphicon {
   display: block;
 }
 .container-npc{
-  padding:10px!important;
+  padding:50px!important;
 }
