@@ -5,7 +5,7 @@ body {
   }
   
   .jumbotron {
-
+    opacity: 75%;
     background-color: #ff214d;
     color: #fff;
     padding: 100px 25px;
@@ -15,7 +15,19 @@ body {
     padding: 60px 50px;
   }
   .bg-grey {
-    background-color: #f6f6f6;
+    background-color: #a241c285;
+    color: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pricing-form{
+      color:#ff214d;
+  }
+  .services-form{
+    border: 1px solid  #ff214d;
+    height: 45px; 
   }
   .logo {
     font-size: 200px;
@@ -81,20 +93,22 @@ body {
     border-color: transparent;
     color: #fff !important;
   }
-
+  .navbar-header{
+    min-height: 85px;
+  }
+ 
 
 .main-logo {
     max-width: 192px;
     /* margin: 31px; */
 }
 
-
 .carousel-caption {
     left: 0;
     top: 30%;
     text-align: left;
     color: #bd24f0 !important;
-    max-width: 300px;
+    max-width: 400px;
     margin-left: 300px;
 }
 .carousel-caption-alt {
@@ -102,12 +116,31 @@ body {
     top: 30%;
     text-align: left;
     color: #fff !important;
-    max-width: 300px;
+    max-width: 400px;
     margin-left: 300px;
 }
+@media screen and (max-width: 860px) {
+  .carousel-caption-alt {
+    top: 30%;
+    text-align: left;
+    color: #fff !important;
+    max-width: 500px;
+    margin-left: 10px;
+    font-size:10px!important;
+ }
+  .brand-name-caption {
+    font-weight: 300!important;
+    font-size: 30px!important;
+  }
+  .brand-name-p {
+    font-size: 10px!important;
+ }
+
+}
+
 .brand-name-caption {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 90px;
 }
 .brand-name-p {
     font-size: 20px;
@@ -117,6 +150,7 @@ body {
     max-width: 600px;
     font-size: 50px;
     line-height: 1.2;
+    /* margin: 15px; */
 }
 
 .about_button{
@@ -134,10 +168,14 @@ body {
 .padding-50 {
   padding-top: 50px;
 }
+.padding-100 {
+  padding-top: 50px;
+}
 .bg-4 {
   background-color: #bd24f0;
   color: #ffffff;
   margin-top: 50px;
+  opacity: 40%;
 }
 footer .glyphicon {
   font-size: 20px;
@@ -159,4 +197,6 @@ footer .glyphicon {
 #image-gallery .modal-footer{
   display: block;
 }
-
+.container-npc{
+  padding:10px!important;
+}
