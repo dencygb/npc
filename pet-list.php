@@ -101,8 +101,8 @@ $query = "SELECT * FROM pet";
     if ($result->num_rows > 0) {
         // output data of each row
         echo "     
-        <table class='table table-striped'>
-        <thead>
+        <table class='table table-bordered'>
+        <thead class='danger'>
             <tr>
             <th>ID</th>
             <th>Name</th>
