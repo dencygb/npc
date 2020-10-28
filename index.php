@@ -105,7 +105,7 @@
         </div>
       </div>
       
-      <div class="container container-npc pricing-form bg-grey" data-aos="fade-up" data-aos-duration="1500">
+      <div class="container container-npc pricing-form bg-grey" data-aos="fade-up" data-aos-duration="1500" id="register">
         <h1>Register your pet today!</h1>
         <h4>We are always delighted to meet new pets and their people. If you would like to pre-register before visiting us simply fill in this form!</h4>
         <form action="pet.php" method="POST" id="pet_register">

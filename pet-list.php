@@ -54,8 +54,11 @@
                 <div class="col-sm-4">
                     <input type="text" class="form-control services-form" name="breed" placeholder="Breed of the pet"value="<?=($_GET['breed'] ? $_GET['breed'] : '')?>" >
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
                     <button type="submit" class="btn btn-default btn-lg about_button">Search</button>
+                </div>
+                <div class="col-sm-2">
+                    <a href="./index.php#register" class="btn btn-primary btn-lg about_button">Add New Pet</a>
                 </div>
             </div>
         </form>
